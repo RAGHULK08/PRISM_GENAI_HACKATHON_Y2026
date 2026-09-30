@@ -34,7 +34,8 @@ interruptible-realtime-agent/
 |   |-- test_slot_repair.py
 |   `-- test_multimodal.py
 |-- docs/
-|   `-- ai_disclosure.md
+|   |-- ai_disclosure.md
+|   `-- architecture.md
 `-- requirements.txt
 ```
 
@@ -51,13 +52,3 @@ python src/fuzzer.py
 ```bash
 python -m unittest discover -s tests -p "test_*.py" -v
 ```
-
----
-
-## Rubric Score Summary
-- **Task Completion (40%)**: 100/100
-- **Interruption Recovery (35%)**: 100/100
-- **Response Latency (15%)**: 100/100
-- **Safety & Protocol (10%)**: 100/100
-- **Quality Multiplier**: 1.05x
-- **Multimodal Multiplier**: 1.50x
